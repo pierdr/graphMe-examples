@@ -21,7 +21,7 @@ void loop() {
   int sensor2=analogRead(A0);
   Serial.print(sensor2);
   Serial.print(",");
-  Serial.print(sensor1);
+  Serial.println(sensor1);
   Serial.print("\n");
   
   
