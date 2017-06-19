@@ -8,7 +8,7 @@ graphMe it's a tool for visualizing incoming signals from a microcontroller, lik
 
 You can download graphMe [here](https://itunes.apple.com/it/app/graphme/id1186285408?l=en&mt=12).
 
-###What do you need to know:
+### What do you need to know:
 - While graphMe is a Mac Application, you need to send your sensor value from your microcontroller to graphMe. 
 - This is _extremely_ easy!
 - If you are using Arduino, you can use `Serial.print` to output your sensor value for graphMe in this way:<br>
