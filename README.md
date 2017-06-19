@@ -22,7 +22,7 @@ You can download graphMe [here](https://itunes.apple.com/it/app/graphme/id118628
 - The sequence \n is the line ending and can be replaced by:
 `Serial.println(sensorValue);`
 - It works with ints and floats;
-- `Serial.print` is not perfect, infact sometimes it loses one byte, as a result you have a noisy signal. This might be ok, or might not be ok.
+- `Serial.print` is not perfect, infact sometimes it loses one byte, as a result you have a noisy signal. This might be ok, but if you are a power user this might not be enough.
 - If you don't want to have a noisy signal you can use the option __USE PACKETSERIAL__ in graphMe. To send packaged communication to graphMe you need to use the library "PacketSerial" made by Christopher Baker, you can download it from the library manager in Arduino or download it from github [here](https://github.com/bakercp/PacketSerial).
 - to use packet serial check the arduino sample code for PacketSerial.
   
